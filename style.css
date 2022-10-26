@@ -30,11 +30,12 @@ span {
 .btn-primary {
     width: 200px;
     height: 55px;
+    margin-top: 18px;
 }
 
 
 .conteudo  .primeiro-h1 {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 60px;
     margin-top: 30px;
 }
@@ -42,7 +43,7 @@ span {
 .conteudo .Primeiro-p {
     color: black;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     letter-spacing: 1px;
 }
 
