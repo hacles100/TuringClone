@@ -90,3 +90,31 @@ span {
     width: 900px;
     margin-bottom: 90px;
 }
+
+.section3 {
+    background-image: url("./img/terra7.jpg");
+    background-size: cover;
+    height: 800px;
+    color: white;
+    
+}
+
+.section3 h1, h4{
+    text-align: center;
+}
+
+.section3 h1 {
+    padding-top: 150px;
+}
+
+.section3 h4 {
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.section3-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
