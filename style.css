@@ -94,9 +94,8 @@ span {
 .section3 {
     background-image: url("./img/terra7.jpg");
     background-size: cover;
-    height: 800px;
-    color: white;
-    
+    height: 600px;
+    color: white;    
 }
 
 .section3 h1, h4{
@@ -104,17 +103,32 @@ span {
 }
 
 .section3 h1 {
-    padding-top: 150px;
+    padding-top: 70px;
+    font-size: 60px;
+    padding-bottom: 30px;
 }
 
 .section3 h4 {
     padding-bottom: 20px;
     text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
 
 }
 
 .section3-div {
     display: flex;
     justify-content: space-around;
-    margin-top: 40px;
+    margin-top: 60px;
+}
+
+.section3-div h5 {
+    border: 2px solid black;
+    height: 70px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 5px 5px black;
+
 }
