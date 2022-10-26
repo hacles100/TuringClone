@@ -132,3 +132,11 @@ span {
     box-shadow: 5px 5px black;
 
 }
+
+.section3-div .section3-div-conjunto i {
+    font-size: 50px;
+}
+
+.section3-div .section3-div-conjunto {
+    display: flex;
+}
