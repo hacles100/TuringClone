@@ -8,6 +8,7 @@
 header {
     position: sticky;
     top: 0;
+    background-color: white;
 }
 
 section .row {
@@ -140,3 +141,53 @@ span {
 .section3-div .section3-div-conjunto {
     display: flex;
 }
+
+.container .dmeu {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.container .segundo h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.content {
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
+.dmeu .btn1 {
+    margin-top: 40px;
+}
+
+.continuacao h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.continuacao .cardapio {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardapio .card .card-body .card-title {
+    text-align: center;
+}
+
+.cardapio .card .card-body .card-title span{
+    color: blue;
+}
+
+.cardapio .card .card-body btn {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
