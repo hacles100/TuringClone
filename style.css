@@ -5,6 +5,15 @@
 }
 
 
+header {
+    position: sticky;
+    top: 0;
+}
+
+section .row {
+    margin-top: 60px;
+}
+
 .container-fluid .navbar-brand {
     font-size: 35px;
     font-weight: bold;
@@ -20,17 +29,22 @@
 form {
     display: flex;
     align-items: center;
-    margin-top: 20px;
 }
 
 span {
     font-size: 20px;
 }
 
-.btn-primary {
+.btn1 {
     width: 200px;
     height: 55px;
-    margin-top: 18px;
+    margin-left: 30px;
+    border: 2px solid blue;
+    background-color: rgb(59, 59, 255);
+    color: white;
+    width: 200px;
+    border-radius: 4px;
+    
 }
 
 
@@ -50,4 +64,29 @@ span {
 .conteudo .primeiro-spam {
     color: blue;
     font-weight: 500;
+}
+
+.conteudo .btn {
+   border: 2px solid blue;
+   background-color: rgb(59, 59, 255);
+   color: white;
+   width: 200px;
+    height: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo .spam2 {
+    color: blue;
+}
+
+.section2 .section2-paragrafo{
+    color: gray;
+    font-weight: 600;
+}
+
+.section2 .section2-imagem {
+    height: 50px;
+    width: 900px;
+    margin-bottom: 90px;
 }
