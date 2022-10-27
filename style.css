@@ -242,7 +242,134 @@ span {
    display: flex;
 }
 
+.card-conteudo .card-conteudo-div  p{
+    font-size: 21px;
+    margin-top: -5px;
+    margin-left: 10px;
+    color: #2e6edf;
+    font-weight: 600;
+}
+
+.card-conteudo .card-conteudo-div i{
+    font-size: 25px; 
+    color: #2e6edf;
+    font-weight: bold;
+}
+
+.card-button i {
+    font-size: 25px;
+}
+
+.card-body .card-button {
+    display: flex;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 2000px;
+}
+
+.card-conteudo .card-conteudo-div {
+    text-align: center;
+    border: 2px solid rgba(86,168,247,.1);
+    margin-top: 10px;
+    background-color: rgba(86,168,247,.1);
+    border-radius: 8px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.card-conteudo .card-conteudo-div2 {
+    text-align: center;
+    border: 2px solid rgba(86,168,247,.1);
+    margin-top: 10px;
+    background-color: rgba(86,168,247,.1);
+    border-radius: 8px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 50px;
+    
+}
+
+.card-conteudo .card-conteudo-div2{
+    display: flex;
+ }
+ 
+ .card-conteudo .card-conteudo-div2  p{
+     font-size: 21px;
+     margin-top: -5px;
+     margin-left: 10px;
+     color: #2e6edf;
+     font-weight: 600;
+ }
+ 
+ .card-conteudo .card-conteudo-div2 i{
+     font-size: 25px; 
+     color: #2e6edf;
+     font-weight: bold;
+ }
 
 
+.card h5 {
+    margin-left: -70px;
+    margin-top: 20px;
+}
 
+
+/* Section simples */
+
+
+.section-simples {
+    margin-top: 140px;
+    margin-bottom: 110px;
+}
+
+.section-simples h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.row {
+    text-align: center;
+}
+
+.row span {
+    color: #1FB70B;
+}
+
+.row .section-simples-pala {
+    display: flex;
+    justify-content: center;
+}
+
+.row .section-simples-pala p {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.row .sozinho {
+    font-size: 25px;
+}
+
+.row span {
+    font-weight: bold;
+}
+
+.row .span1 {
+    font-size: 50px;
+}
+.row .section-simples-pala p, .span1, span {
+    padding-left: 20px;
+}
+
+
+.azul {
+    background-image: url("./img/imagemfundo.jpg");
+}
+
+
+.azul .especial {
+    
+}
 
