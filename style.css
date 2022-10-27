@@ -167,14 +167,47 @@ span {
     font-size: 25px;
 }
 
+/* Botao */
 
 .dmeu .btn1 {
     margin-top: 40px;
 }
 
+ .btn1{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+ .btn1:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    /* top: 0; */
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+ .btn1:hover {
+    padding-right: 25px;
+  }
+  
+ .btn1:hover:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+/* Botao */
+
+
+
+/* Outra Div */
+
 .continuacao h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 55px;
 }
 
 .continuacao .cardapio {
@@ -194,6 +227,19 @@ span {
 .cardapio .card .card-body btn {
     display: flex;
     justify-content: center;
+}
+
+.card-body .card-title {
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+
+.card-body ul li {
+    font-size: 20px;
+}
+
+.card-conteudo .card-conteudo-div{
+   display: flex;
 }
 
 
