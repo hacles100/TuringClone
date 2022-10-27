@@ -120,19 +120,21 @@ span {
 .section3-div {
     display: flex;
     justify-content: space-around;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
-.section3-div h5 {
-    border: 2px solid black;
-    height: 70px;
-    width: 300px;
-    border-radius: 8px;
-    text-align: center;
-    padding-top: 10px;
-    box-shadow: 5px 5px black;
-
+.section3-div .section3-div-conjunto h5 {
+    font-size: 25px;
+    padding-left: 10px;
 }
+
+.section3-div .section3-div-conjunto i {
+    border: 2px solid grey;
+    border-radius: 6px;
+    background-color: grey;
+    height: 60px;
+}
+
 
 .section3-div .section3-div-conjunto i {
     font-size: 50px;
@@ -140,6 +142,13 @@ span {
 
 .section3-div .section3-div-conjunto {
     display: flex;
+}
+
+
+/* Outra section */
+
+.dmeu .primeiro{
+    padding-top: 2000px;
 }
 
 .container .dmeu {
