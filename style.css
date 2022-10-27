@@ -365,11 +365,14 @@ span {
 
 
 .azul {
-    background-image: url("./img/imagemfundo.jpg");
+    background-image: url("./img/blueblackground.jpg");
 }
 
 
-.azul .especial {
-    
-}
+.azul .especial .botoes{
+    color: white;
+} 
+
+
+
 
