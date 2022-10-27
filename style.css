@@ -34,6 +34,7 @@ form {
 
 span {
     font-size: 20px;
+    color: #2e6edf;
 }
 
 .btn1 {
@@ -258,6 +259,7 @@ span {
 
 .card-button i {
     font-size: 25px;
+    
 }
 
 .card-body .card-button {
@@ -313,7 +315,12 @@ span {
     margin-left: -70px;
     margin-top: 20px;
 }
-
+.card-title {
+    padding-left: 40px;
+}
+.card-title2 {
+    text-align: center;
+}
 
 /* Section simples */
 
@@ -372,7 +379,12 @@ span {
 .azul .especial .botoes{
     color: white;
 } 
-
+.especial h1{
+    text-align: left;
+    padding-left: 350px;
+    color: white;
+    font-size: 50px;
+}
 
 
 
